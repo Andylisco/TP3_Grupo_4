@@ -8,7 +8,7 @@ public class DNI{
 	{
 		 	for (int i = 0; i < dni.length();i++)
 		 	{
-		 		if(dni.matches("[A-Z]*") || dni.matches("[a-z]*"))
+		 		if(!dni.matches("^[0-9]*$"))
 		 		{
 		 			DniInvalido MalDni = new DniInvalido();
 		 			throw MalDni;
