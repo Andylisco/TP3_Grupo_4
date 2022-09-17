@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-
 public class Principal {
 
 	public static void main(String[] args) {
@@ -30,7 +29,7 @@ public class Principal {
 		
 		try 
 		{
-			DNI.verificarDniInvalido(Dni);
+			Persona.VerificarDniInvalido(Dni);
 			System.out.println("DNI es Valido");
 		}
 		catch (DniInvalido e) 
