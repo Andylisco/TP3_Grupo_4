@@ -12,6 +12,12 @@ public class Persona implements Comparable<Persona> {
 		this.Dni = "";
 	}
 	
+	public Persona(String dni, String nombre, String apellido) {
+		Dni = dni;
+		Nombre = nombre;
+		Apellido = apellido;
+	}
+
 	String Dni;
 	String Nombre;
 	String Apellido;
